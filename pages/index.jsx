@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Abilities from "../components/Abilities/Abilities";
+import Projects from "../components/Projects/Projects";
 
 export default function Home() {
   return (
@@ -62,6 +63,8 @@ export default function Home() {
         </h3>
       </div>
       <Abilities/>
+
+      <Projects />
     </div>
   );
 }
