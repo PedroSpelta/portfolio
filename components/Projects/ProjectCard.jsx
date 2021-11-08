@@ -2,7 +2,7 @@ import React from 'react'
 
 function ProjectCard() {
   return (
-    <section className="col-span rounded-lg w-20 h-20">
+    <section className="col-span border rounded-lg h-20">
       <span>eae</span>
     </section>
   )
