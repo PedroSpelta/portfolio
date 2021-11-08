@@ -50,7 +50,7 @@ export default function Home() {
         {/* resume */}
       </div>
       <div className="flex flex-col items-center pb-60 text-center bg-gray-600 text-white">
-        <h2 className="text-4xl pt-12">Bem vindo!</h2>
+        <h2 className="text-4xl pt-12 font-bold">Bem vindo!</h2>
         <h3 className="text-2xl pt-5 max-w-4xl px-6">
           Lorem Ipsum has been the industry's standard dummy text ever since the
           1500s, when an unknown printer took a galley of type and scrambled it
@@ -63,6 +63,13 @@ export default function Home() {
         </h3>
       </div>
       <Abilities/>
+
+      <div className="flex flex-col items-center pb-20 text-center text-gray-900 mt-40">
+        <h2 className="text-4xl pt-12 font-bold">Meus projetos</h2>
+        <h3 className="text-2xl pt-5 max-w-4xl px-6">
+          Aqui estão alguns dos meus projetos realizados recentemente
+        </h3>
+      </div>
 
       <Projects />
     </div>
