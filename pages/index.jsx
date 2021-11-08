@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Abilities from "../components/Abilities/Abilities";
 
 export default function Home() {
   return (
@@ -60,11 +61,7 @@ export default function Home() {
           versions of Lorem Ipsum.
         </h3>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 max-w-7xl mx-auto mt-[-160px] px-10">
-        <section className="col-span border rounded-t-xl md:rounded-tr-none md:rounded-l-xl  h-28 bg-white">teste</section>
-        <section className="col-span bg-white">teste1</section>
-        <section className="col-span border rounded-b-xl md:rounded-bl-none md:rounded-r-xl bg-white">teste2</section>
-      </div>
+      <Abilities/>
     </div>
   );
 }
