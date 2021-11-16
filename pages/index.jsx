@@ -62,6 +62,8 @@ export default function Home() {
           versions of Lorem Ipsum.
         </h3>
       </div>
+
+      
       <Abilities/>
 
       <div className="flex flex-col items-center pb-20 text-center text-gray-900 mt-40">
