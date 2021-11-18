@@ -19,28 +19,27 @@ function Abilities() {
         <span>CSS</span>
         <span>TailWind</span>
         <span>Git & Github</span>
-
       </AbilityTab>
+
       <AbilityTab className=" pb-14 pt-8">
         <BackendIcon fill="black" />
         <p className="text-xl font-bold">Back-end</p>
-        <span className="text-center w-[75%]">Desenvolvo aplicações criativas e responsivas, focadas em solucionar problemas de maneira prática</span>
+        <span className="text-center w-[75%]">Desenvolvo código limpo, escalável, seguro e testável, utilizando banco de dados e construindo API's.</span>
         <p className="text-lg font-bold pt-4 pb-1">Tecnologias</p>
         <span>Node.JS</span>
         <span>MongoDB</span>
         <span>Mysql</span>
       </AbilityTab>
+
       <AbilityTab className="rounded-b-xl md:rounded-bl-none md:rounded-r-xl pb-14 pt-8" >
         <SoftskillsIcon />
         <p className="text-xl font-bold">Soft-skills</p>
-        <span>eae</span>
-        <span>uhum</span>
-        <span>eae</span>
-        <span>uhum</span>
-        <span>eae</span>
-        <span>uhum</span>
-        <span>eae</span>
-        <span>uhum</span>
+        <span className="text-center w-[75%]">Trabalho de forma cooperativa, aprendendo com os erros e buscando as condições necessárias para alcançar meus objetivos. </span>
+        <p className="text-lg font-bold pt-4 pb-1">Habilidades</p>
+        <span>Colaboração</span>
+        <span>Lógica</span>
+        <span>Empatia</span>
+        <span>Resiliência</span>
       </AbilityTab>
     </div>
   );

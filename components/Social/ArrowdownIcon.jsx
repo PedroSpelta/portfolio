@@ -4,7 +4,7 @@ function ArrowdownIcon({setMini, mini}) {
   const [hover, setHover] = useState(false);
   return (
     <div
-      className="flex justify-center items-end h-12 duration-700 rounded-t-full"
+      className={`flex justify-center items-end h-12 rounded-t-full ${mini? "rotate-180 transform !items-start": ""}`}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
       onClick={() => setMini(!mini)}
