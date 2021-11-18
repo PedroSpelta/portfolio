@@ -16,7 +16,7 @@ export default function Home() {
     console.log("Contact me: https://www.linkedin.com/in/pedrospelta/");
   }, []);
   return (
-    <div>
+    <div className="bg-gray-200">
       <Head>
         <title>Pedro Spelta | Portifólio</title>
         <link rel="icon" href="/favicon.ico" />
@@ -61,22 +61,16 @@ export default function Home() {
 
         {/* resume */}
       </div>
-      <div className="flex flex-col items-center pb-60 text-center bg-gray-600 text-white">
-        <h2 className="text-4xl pt-12 font-bold">Bem vindo!</h2>
+      <div className="flex flex-col items-center pb-60 text-center">
+        <h2 className="text-4xl pt-12 font-bold">Sobre</h2>
         <h3 className="text-2xl pt-5 max-w-4xl px-6">
-          Lorem Ipsum has been the industry's standard dummy text ever since the
-          1500s, when an unknown printer took a galley of type and scrambled it
-          to make a type specimen book. It has survived not only five centuries,
-          but also the leap into electronic typesetting, remaining essentially
-          unchanged. It was popularised in the 1960s with the release of
-          Letraset sheets containing Lorem Ipsum passages, and more recently
-          with desktop publishing software like Aldus PageMaker including
-          versions of Lorem Ipsum.
+          Tudo começou na faculdade, tive uma matéria de programação e logo no começo percebi que um código resolvia todos aquelas fórmulas trabalhosas em questão de mili segundos.
+          Depois de algum tempo comecei a estudar na Trybe, onde aprendemos a colaborar e desenvolver aplicativos web.
+          Sou paciente, curioso e sedento para aprender a resolver problemas diariamente e me aprimorar com eles.
         </h3>
       </div>
 
-      
-      <Abilities/>
+      <Abilities />
 
       <div className="flex flex-col items-center pb-20 text-center text-gray-900 mt-40">
         <h2 className="text-4xl pt-12 font-bold">Meus projetos</h2>
@@ -88,7 +82,6 @@ export default function Home() {
       <Projects />
 
       <Social />
-
     </div>
   );
 }

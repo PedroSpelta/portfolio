@@ -6,7 +6,7 @@ function ProjectGithub() {
     <div className="flex justify-center items-center my-10">
         <a
           href="https://github.com/PedroSpelta"
-          className="border-2 border-black text-xl font-semibold rounded-full px-8 py-2 flex hover:bg-black
+          className="border-2 border-black bg-white text-xl font-semibold rounded-full px-8 py-2 flex hover:!bg-black
           hover:text-white"
           onMouseEnter={() => setIsOver(true)}
           onMouseLeave={() => setIsOver(false)}

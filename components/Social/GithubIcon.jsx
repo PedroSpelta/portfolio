@@ -1,23 +1,7 @@
 import React, { useState } from "react";
 
 function GithubIcon() {
-  const [hover, setHover] = useState(false)
   return (
-    <svg
-      version="1.0"
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 512.000000 512.000000"
-      preserveAspectRatio="xMidYMid meet"
-      onMouseEnter={() => setHover(true)}
-      onMouseLeave={() => setHover(false)}
-      width="28pt"
-      height="28pt"
-    >
-      <g
-        transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-        fill={`${hover? "white": "black"}`}
-        stroke="none"
-      >
         <path
           d="M1425 5048 c-18 -40 -43 -101 -54 -136 -48 -141 -53 -184 -58 -506
 l-5 -308 -59 -112 c-108 -207 -153 -387 -152 -616 1 -467 254 -893 708 -1193
@@ -47,8 +31,6 @@ c200 -201 239 -254 284 -386 l27 -80 3 -602 3 -603 -765 0 -766 0 0 185 c0
 -625 297 -932 866 -769 1429 31 105 70 192 127 280 l45 70 4 339 c4 307 6 345
 26 415 35 126 29 121 136 116 55 -3 117 -14 156 -27z"
         />
-      </g>
-    </svg>
   );
 }
 
