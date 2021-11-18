@@ -1,8 +1,20 @@
 import Head from "next/head";
+import { useEffect } from "react";
 import Abilities from "../components/Abilities/Abilities";
 import Projects from "../components/Projects/Projects";
+import Social from "../components/Social/Social";
 
 export default function Home() {
+  useEffect(() => {
+    console.log(`
+    ███   ████  ███   ███   ████
+    █  █  █     █  █  █  █  █  █
+    ███   ██    █  █  ███   █  █
+    █     █     █  █  █  █  █  █
+    █     ████  ███   █  █  ████
+    `);
+    console.log("Contact me: https://www.linkedin.com/in/pedrospelta/");
+  }, []);
   return (
     <div>
       <Head>
@@ -74,6 +86,9 @@ export default function Home() {
       </div>
 
       <Projects />
+
+      <Social />
+
     </div>
   );
 }
