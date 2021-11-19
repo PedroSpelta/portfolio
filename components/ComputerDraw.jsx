@@ -6,9 +6,8 @@ function ComputerDraw() {
       <svg
         version="1.0"
         xmlns="http://www.w3.org/2000/svg"
-        width="40%"
-        height="40%"
         viewBox="0 0 1593.000000 1108.000000"
+        className="w-[90%] h-[90%] md:w-[60%] md:h-[60%] xl:w-[40%] xl:h-[40%]"
       >
         <g
           transform="translate(0.000000,1108.000000) scale(0.100000,-0.100000)"
