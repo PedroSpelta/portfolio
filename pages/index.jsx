@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useEffect } from "react";
 import Abilities from "../components/Abilities/Abilities";
+import ComputerDraw from "../components/ComputerDraw";
 import Projects from "../components/Projects/Projects";
 import Social from "../components/Social/Social";
 
@@ -53,11 +54,14 @@ export default function Home() {
 
         <div className="flex justify-center pt-5 pb-20">
           <img
-            src="/rounded.png"
+            src="/perfil.jpeg"
             alt="profile-image"
-            className="h-[150px] w-[150px]"
+            className="h-[150px] w-[150px] rounded-full"
           />
         </div>
+
+        {/* computer img */}
+        <ComputerDraw />
 
         {/* resume */}
       </div>
