@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import { useEffect } from "react";
 import Abilities from "../components/Abilities/Abilities";
 import ComputerDraw from "../components/ComputerDraw";
@@ -25,7 +26,7 @@ export default function Home() {
       <div className="flex flex-col w-10/12 justify-center m-auto">
         {/* header */}
         <div className="flex justify-between items-center pt-9">
-          <img src="/logo.png" alt="Logo" className="h-10 pt-3" />
+          <Image height={30} width={30} src="/logo.png" alt="Logo" />
           <div className="flex items-center justify-items-end space-x-8 text-2xl ">
             <a className="hover:text-blue-600 transform transition-all duration-500">
               Home
@@ -52,10 +53,12 @@ export default function Home() {
         {/* profile img */}
 
         <div className="flex justify-center pt-5 pb-20">
-          <img
+          <Image
+            width={150}
+            height={150}
             src="/perfil.jpeg"
             alt="profile-image"
-            className="h-[150px] w-[150px] rounded-full"
+            className="rounded-full"
           />
         </div>
 
