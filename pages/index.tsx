@@ -5,17 +5,16 @@ import ComputerDraw from "../components/ComputerDraw";
 import Projects from "../components/Projects/Projects";
 import Social from "../components/Social/Social";
 
+console.log(`
+███   ████  ███   ███   ████
+█  █  █     █  █  █  █  █  █
+███   ██    █  █  ███   █  █
+█     █     █  █  █  █  █  █
+█     ████  ███   █  █  ████
+`);
+console.log("Contact me: https://www.linkedin.com/in/pedrospelta/");
+
 export default function Home() {
-  useEffect(() => {
-    console.log(`
-    ███   ████  ███   ███   ████
-    █  █  █     █  █  █  █  █  █
-    ███   ██    █  █  ███   █  █
-    █     █     █  █  █  █  █  █
-    █     ████  ███   █  █  ████
-    `);
-    console.log("Contact me: https://www.linkedin.com/in/pedrospelta/");
-  }, []);
   return (
     <div className="bg-gray-200">
       <Head>
