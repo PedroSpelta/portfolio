@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useState } from "react";
 
 function ProjectCard(props) {
@@ -19,8 +20,10 @@ function ProjectCard(props) {
           Visitar
         </a>
       </div>
-      <img
+      <Image
         src={image}
+        width={40}
+        height={40}
         alt=""
         className={`transition duration-500 opacity-100 ${
           isOver && "!opacity-0 scale-125"

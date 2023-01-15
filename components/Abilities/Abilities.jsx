@@ -24,7 +24,7 @@ function Abilities() {
       <AbilityTab className=" pb-14 pt-8">
         <BackendIcon fill="black" />
         <p className="text-xl font-bold">Back-end</p>
-        <span className="text-center w-[75%]">Desenvolvo código limpo, escalável, seguro e testável, utilizando banco de dados e construindo API's.</span>
+        <span className="text-center w-[75%]">Desenvolvo código limpo, escalável, seguro e testável, utilizando banco de dados e construindo API&apos;s.</span>
         <p className="text-lg font-bold pt-4 pb-1">Tecnologias</p>
         <span>Node.JS</span>
         <span>MongoDB</span>
